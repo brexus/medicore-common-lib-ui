@@ -5,6 +5,6 @@ import {VisitStatusEnum} from "../../enums/visit-status-enum";
 export interface VisitRequest {
   patient: PatientRequest;
   doctor: DoctorRequest;
-  appointmentDate: Date;
+  visitDate: Date;
   status: VisitStatusEnum
 }
